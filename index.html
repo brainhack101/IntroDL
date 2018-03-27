@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Beyond Linear Decoding: Introduction to Deep Learning</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<style type="text/css">
+.blk {
+color: #000000;
+}
+</style>
+
+</head>
+
+<body> 
+  <div class="container-fluid">
+  	<div class="row">
+  		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
+	  	<div class="jumbotron jumbotron-fluid">
+		  <div class="container">
+		    <h1 class="display-4">Welcome</h1>
+		    <p class="lead">Deep neural networks have become an indispensable tool in computer vision, and are increasingly applied to neuroimaging data. They have very quickly surpassed human performance in natural image recognition and in some cases, the highest-performing architectures closely resemble the processing stream in the human visual cortex. Although these learning algorithms are routinely applied in other imaging domains, they remain in their nascent stage in their applicability to functional neuroimaging data. In this course, we introduce state-of-the-art methods in deep learning with a focus on how these new techniques can readily be applied to brain imaging data.</p>
+		  </div>
+		</div>
+		</div>
+	</div>
+
+  	<div class="row">
+  		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
+  			<hr>
+  			<h2>Program</h2>
+  			<h4>June 17, 1:00 pm - 5:00 pm</h4>
+  			<ol>
+  				<li><a href="https://ww5.aievolution.com/hbm1801/index.cfm?do=ev.viewEv&ev=1793">Beyond Linear Decoding</a> - Pamela K. Douglas (slides)</li>
+  				<li><a href="https://ww5.aievolution.com/hbm1801/index.cfm?do=ev.viewEv&ev=1792">Introduction to Deep Learning</a> - Andrew Doyle (slides)</li>
+  				<li><a href="https://ww5.aievolution.com/hbm1801/index.cfm?do=ev.viewEv&ev=1791">Hands-on Deep Learning with Keras</a> - Anisha Keshavan (Colab)</li>
+  				<li><a href="https://ww5.aievolution.com/hbm1801/index.cfm?do=ev.viewEv&ev=1794">Generative Adversarial Networks</a> - Christopher Beckham (slides)</li>
+  				<li><a href="https://ww5.aievolution.com/hbm1801/index.cfm?do=ev.viewEv&ev=1795">Deep Learning for Segmenting Infant MRI</a> - Pim Moeskops (slides)</li>
+  				<li><a href="https://ww5.aievolution.com/hbm1801/index.cfm?do=ev.viewEv&ev=1796">Interpretability in Deep Learning</a> (slides)</li>
+  			</ol>
+  	</div>
+
+  	<div class="row">
+  		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
+  			<hr>
+  			<h2>Speakers</h2>
+		
+  		<div class="row">
+		<div class="col-sm-6">
+  		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Pamela K. Douglas (co-organizer)</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Assistant Professor, University of California (Los Angeles)</h6>
+			<h6 class="card-subtitle mb-2 text-muted">Assistant Professor, University of Central Florida</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/Pamela_Douglas.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+					<a href="https://scholar.google.ca/citations?user=w0UrHXYAAAAJ&hl=en&oi=sra" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/pamelitadouglas" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					</p>
+				</div>
+
+				<div class="col-sm-8">
+					<p class="card-text">Pamela uses machine learning to study Attention Deficit and Hyperactivity Disorder in fMRI and EEG data. An expert in unsupervised learning, she also recently presented work on the <a href="http://www.interpretable-ml.org/nips2017workshop/papers/15.pdf">interpretability of fMRI weight maps</a> at the Interpreting, Explaining and Visualizing Deep Learning Workshop of NIPS 2017, and co-organized the <a href="http://niml2017.org/">Neuroimaging and Machine Learning 2017 Workshop</a>.</p>
+				</div>
+
+			</div>
+		  </div>
+		</div>
+		</div>
+
+		<div class="col-sm-6">
+		 <div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Andrew Doyle (co-organizer)</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Research Software Developer, McGill Centre for Integrative Neuroscience</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/Andrew_Doyle.jpg" width="150px" class="img-fluid rounded-circle mt-3""/>
+					
+					<p class="card-text">
+						<br>
+						<a href="https://scholar.google.ca/citations?user=xxecIhQAAAAJ&hl=en" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+						&nbsp;
+					<a href="https://twitter.com/crocodoyle" class="blk"><i class="fab fa-twitter fa-2x"></i></a></p>
+				</div>
+
+				<div class="col-sm-8">
+					<p class="card-text">Andrew uses deep learning to automate portions of neuroimaging workflows. His work automating infant structural MRI quality control is being integrated into the <a href="http://loris.ca/">LORIS</a> databasing system, and he now works on using deep learning to predict future diagnoses in Alzheimer's Disease, Autism Spectrum Disorder, and Major Depression. He recently organized a <a href="https://brainhack101.github.io/deepbrainhack2017/">deep learning-themed Brainhack</a>.</p>
+				</div>
+
+				</div>
+			</div>
+		  </div>
+		</div>
+		</div>
+
+		<div class="row">
+		<div class="col-sm-6">
+		 <div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Anisha Keshavan</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Postdoctoral Fellow, University of Washington</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/Anisha_Keshavan.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+					<a href="https://scholar.google.ca/citations?user=LHRoC0YAAAAJ&hl=en&oi=ao" class="blk">
+					<i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/akeshavan_" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Anisha combines the speed of inference in deep learning and crowdsourcing techniques to achieve expert-level ratings for structural MRI scans. Co-organizer of this year's <a href="https://ohbm.github.io/hackathon2018/">OHBM hackathon</a>, Anisha develops open-source web apps like <a ref="https://braindr.us/#/">Braindr</a> and <a href="http://mindcontrol-hbn.herokuapp.com/">Mind Control</a> to facilitate the analysis of neuroimaging data - and construct great datasets for deep learning.</p>					
+				</div>
+
+				
+			</div>
+			
+		  </div>
+		</div>
+		</div>
+
+
+		<div class="col-sm-6">
+		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Christopher Beckham</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Graduate Student, Montreal Institute for Learning Algorithms</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/Christopher_Beckham.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+					<a href="https://scholar.google.ca/citations?user=PpD3zNYAAAAJ&hl=en" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/chris_j_beckham" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+				</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Chris has developed machine learning algorithms with the <a href="https://www.cs.waikato.ac.nz/ml/">WEKA</a> group at the University of Waikato in New Zealand, which hosts one of the largest open-source repositories of learning algorithms. He now uses Generative Adversarial Networks (GANs) to bring the power of deep learning to smaller-sized medical imaging datasets.</p>
+				</div>
+			</div>
+
+		  </div>
+		</div>
+		</div>
+		</div>
+
+		<div class="col-sm-6 offset-sm-3">
+		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Pim Moseskops</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Postdoctoral Fellow, TU Eindhoven</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/Pim_Moeskops.png" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+						<a href="https://scholar.google.ca/citations?user=XG_0OH0AAAAJ&hl=en&oi=sra" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/pimmoeskops" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Pim uses cutting-edge deep learning techniques to characterize neurodevelopment. He has worked extensively on structural connectivity of the subthalamic nucleus, and has since gone on to achieve state-of-the-art tissue segmentation results for isointense 6-month old infant MRI.
+					</p>					
+				</div>
+			</div>
+		  </div>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+
+  	<div class="row">
+  		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
+  			<hr>
+  			<h2>Resources</h2>
+  			<ul>
+  				<li><a href="https://www.deeplearningbook.org/">Deep Learning Textbook</a></li>
+				<li><a href="https://keras.io">Keras</a></li>
+				<li><a href="https://colab.research.google.com">Google Colab</a></li>
+  			</ul>
+  		</div>
+  	</div>
+
+  	</div>
+
+  
+	<div class="row">
+		<div class="col">
+			<hr>
+			<p class="text-center">	&copy; Team Beyond Linear 2018</p>
+		</div>
+	</div>
+  </div>
+
+</body>
+</html>
