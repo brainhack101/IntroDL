@@ -230,11 +230,23 @@ color: #000000;
   	<div class="row">
   		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
   			<hr>
-  			<h2>Resources</h2>
+  			<h2>Learning Resources</h2>
+  			<p>Non-exhaustive list of learning materials for those who want more!</p>
   			<ul>
-  				<li><a href="https://www.deeplearningbook.org/">Deep Learning Textbook</a></li>
-				<li><a href="https://keras.io">Keras</a></li>
-				<li><a href="https://colab.research.google.com">Google Colab</a></li>
+  				<li><a href="https://www.deeplearningbook.org/">Deep Learning Textbook</a> by Ian Goodfellow, Aaron Courville and Yoshua Bengio</li>
+				<li>Hugo Larochelle's <a href="https://www.youtube.com/watch?v=SGZ6BttHMPw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH">course on Deep Learning</a></li>
+				<li><a href="http://deeplearning.net/">deeplearning.net</a> links to many resources</li>
+  			</ul>
+
+  			<h2>Development Resources</h2>
+  			<p>Deep learning typically involves running the backpropagation algorithm on a large computational graph. This can be parallelized efficiently and easily with the help of tensor math libraries like those listed below. We recommend using Python 3 for this, but <a href="https://www.mathworks.com/discovery/deep-learning.html">MATLAB now has deep learning built-in</a> if you just can't quit closed-source software.</p>
+  			<ul>
+  				<li>Google <a href="https://colab.research.google.com">Colaboratory</a> is Google Docs for <a href="http://jupyter.org/">Jupyter Notebooks</a>, and allows you train models with GPUs for free!</li>
+  				<li>Install <a href="https://conda.io/docs/user-guide/install/download.html">Anaconda</a>, recommended way to get Python (especially for Windows users)</li>
+  				<li><a href="https://keras.io">Keras</a>, a high-level neural network API that runs on top of <a href="https://www.tensorflow.org/">TensorFlow</a>, <a href="https://www.microsoft.com/en-us/cognitive-toolkit/">CNTK</a> or <a href="http://deeplearning.net/software/theano/">Theano</a></li>
+  				<li>Install <a href="https://www.python.org/">Python</a> (recommended if Anaconda doesn't work)</li>
+  				<li>For GPU training, install <a href="https://developer.nvidia.com/cuda-toolkit">CUDA</a> and <a href="https://developer.nvidia.com/cudnn">cuDNN</a></li>
+  				<li><a href="https://docs.docker.com/install/">Docker</a> users can build deep learning containers on top of the <a href="https://github.com/NVIDIA/nvidia-docker">Docker Engine Utility for NVIDIA GPUs</a>. Note that you still need CUDA/cuDNN</li>
   			</ul>
   		</div>
   	</div>
