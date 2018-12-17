@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Beyond Linear Decoding: Introduction to Deep Learning</title>
+<title>Deep Learning for Human Brain Mapping</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -18,18 +18,30 @@
 .blk {
 color: #000000;
 }
+.bg {
+	background-image: url("img/bg.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+.transparent {
+	opacity: 0.7;
+}
+.opaque {
+	opacity: 1.0
+}
 </style>
 
 </head>
 
 <body> 
   <div class="container-fluid">
-  	<div class="row">
+  	<div class="row bg">
   		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
-	  	<div class="jumbotron jumbotron-fluid">
-		  <div class="container">
-		    <h1 class="display-4">Welcome</h1>
-		    <p class="lead">Deep neural networks have become an indispensable tool in computer vision, and are increasingly applied to neuroimaging data. They have very quickly surpassed human performance in natural image recognition and in some cases, the highest-performing architectures closely resemble the visual cortex. Although these learning algorithms are routinely applied in other imaging domains, they remain in their nascent stage in their applicability to neuroimaging data. In this course, we introduce state-of-the-art methods in deep learning with a focus on how these new techniques can readily be applied to brain imaging data.</p>
+	  	<div class="jumbotron jumbotron-fluid transparent">
+		  <div class="container opaque">
+		    <h1 class="display-4">Deep Learning for Human Brain Mapping</h1>
+		    <p class="lead">Deep learning has become an indispensable tool in computer vision, and is increasingly applied to neuroimaging data. It has very quickly surpassed human performance in natural image recognition and in some cases, the highest-performing architectures closely resemble the visual cortex. A variety of image-to-image translation methods are now popular for mapping the brain's functionality. In this course, we present state-of-the-art methods in deep learning with a focus on how these new techniques can readily be applied to your brain imaging data.</p>
 		  </div>
 		</div>
 		</div>
@@ -42,10 +54,323 @@ color: #000000;
 	</div> -->
 
 
+	<div class="row">
+		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
+ 			<hr>
+  			<h2>Proposed Program 2019 - Deep Learning for Human Brain Mapping</h2>
+  			<h4>Organization for Human Brain Mapping 2019. Rome.</h4>
+  			<h5>June 2019</h4>
+  			
+  			<div class="row">
+	  			<ol>
+	  				<br>
+	  				<h6>Morning (9h00 - 12h30): Deep Dive</h6>
+	  				<li>Deep Learning Approaches: Brief Introduction and Application to NeuroImaging - Vince Calhoun</li>
+	  				<li>Hands-on Introduction to Deep Learning with Keras - Ariel Rokem</li>
+	  				<li>Brain Age Prediction - Saige Rutherford</li>
+	  				<li>Learning Cortical Layers in the BigBrain - Hannah Spitzer</li>
+	  				<li>Attention and Modeling of Cognitive Processes - Grace Lindsay</li>
+
+	  				<br>
+	  				<h6>Afternoon (1h30 - 17h00): Even Deeper</h6>
+	  				<li>Generative Adversarial Activation Mapping - Sanmi Koyejo</li>
+	  				<li>GANs for Cross-Modality Image Synthesis - Anders Eklund</li>
+	  				<li>Quantitative Susceptibility Mapping - Steffen Bollmann</li>
+	  				<li>Segmenting Tracts in Diffusion MRI - Jakob Wasserthal</li>
+	  				<li>Looking Inside the Black Box - Andrew Doyle</li>
+	  			</ol>
+  			</div>
+
+		</div>
+	</div>
+
   	<div class="row">
   		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
   			<hr>
-  			<h2>Program</h2>
+  			<h2>Speakers</h2>
+		
+  		<div class="row">
+		<div class="col-sm-6">
+		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Vince Calhoun</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Distinguished Professor, University of New Mexico</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/vince_calhoun.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+						<a href="https://scholar.google.ca/citations?user=7pk1M78AAAAJ&hl=en" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/vdcalhoun" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					<br>
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Vince was one of the first scientists to get deep learning to work at all in neuroimaging, and has applied it extensively to modeling functional magnetic resonance imaging to build better maps of the brain. His group has investigated comparatively rare models like <a href="https://www.frontiersin.org/articles/10.3389/fnins.2014.00229/full" target="_blank">deep Boltzmann machines</a> and has investigated using deep learning for <a href="https://www.sciencedirect.com/science/article/pii/S2451902216000598" target="_blank">fusing modalities at multiple brain scales</a>.
+					</p>					
+				</div>
+			</div>
+		  </div>
+		</div>
+		</div>
+
+
+		<div class="col-sm-6">
+  		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Ariel Rokem (Organizer)</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Research Staff, University of Washington </h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/ariel_rokem.png" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+					<a href="https://scholar.google.ca/citations?user=hrBeLVYAAAAJ&hl=en&oi=ao" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/arokem" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					<br>
+					</p>
+				</div>
+
+				<div class="col-sm-8">
+					<p class="card-text">Ariel is a data scientist and hacker who runs the <a href="https://neurohackademy.org/" target="_blank">NeuroHackademy</a>, a bootcamp for neuroimagers to gain skills while doing code sprints on a variety of innovative projects pushing the limits of brain mapping. An instructor with Data/Software Carpentry since 2013, he's a strong believer in using <a href="https://www.pnas.org/content/115/36/8872.short" target="_blank">hackathons for education</a>, and is particularly interested in using structural MR imaging to map the brain.</p>
+				</div>
+
+			</div>
+		  </div>
+		</div>
+		</div>
+	</div>
+
+		<div class="row">
+		<div class="col-sm-6">
+		 <div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Saige Rutherford</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Research Staff, University of Michigan</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/saige_rutherford.jpg" width="150px" class="img-fluid rounded-circle mt-3""/>
+					
+					<p class="card-text">
+						<br>
+						<a href="https://scholar.google.ca/citations?user=ryF481YAAAAJ&hl=en" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+						&nbsp;
+					<a href="https://twitter.com/being_saige" class="blk"><i class="fab fa-twitter fa-2x"></i></a></p>
+					<br>
+				</div>
+
+				<div class="col-sm-8">
+					<p class="card-text">Saige studies neuro-development, and is interested in discovering <a href="https://www.biorxiv.org/content/early/2018/06/29/326082" target="_blank">low-dimensional representations</a> that might predict how we grow. She uses deep learning and careful MR sequence design to characterize neo-natal brain growth in challenging segmentation environments and <a href="https://arxiv.org/abs/1808.04362" target="_blank">predict brain age</a> as a biomarker for early detection of disorders and degeneration.</p>
+				</div>
+
+				</div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="col-sm-6">
+		 <div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Hannah Spitzer</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Doctoral Candidate, Jülich</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/hannah_spitzer.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+					<a href="https://scholar.google.ca/citations?user=MK5WcD8AAAAJ&hl=en" class="blk">
+					<i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<br>
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Hannah is a computer vision expert who uses big data to <a href="https://ieeexplore.ieee.org/abstract/document/7950666">map the brain at the microscopic level</a>. She is interested in how deep learning can help us characterize and discover the variability in the <a href="https://arxiv.org/abs/1806.05104" target="_blank">cytoarchitecture</a> of our brains, and works on how understanding the connectivity and laminar structure of the reconstructed histological data in the <a href="https://bigbrain.loris.ca/main.php" target="_blank">BigBrain</a>.</p>					
+				</div>
+
+				
+			</div>
+			
+		  </div>
+		</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-6">
+		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Grace Lindsay</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Postdoctoral Fellow, Columbia University</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/grace_lindsay.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+						<a href="https://scholar.google.ca/citations?user=4kETHY4AAAAJ&hl=en" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/neurograce" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					<br>
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Grace is interested in parallels between how biological neural circuits relate to artificial models. Using deep learning tools, she studies <a href="https://www.youtube.com/watch?v=viderYmdiH8" target="_blank">vision and attention</a>, with a particular interest in how <a href="http://www.jneurosci.org/content/early/2017/10/11/jneurosci.1222-17.2017" target="_blank">Hebbian learning</a> in artificial networks is reflected in brain recording data. She is particularly strong at scientific communication, and her <a href="http://unsupervisedthinkingpodcast.blogspot.com/" target="_blank">podcast</a> offers listeners a gentle and accessible introduction to all things neuro.
+					</p>					
+				</div>
+			</div>
+		  </div>
+		</div>
+		</div>
+
+		<div class="col-sm-6">
+		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Sanmi Koyejo</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Assistant Professor, University of Illinois</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/sanmi_koyejo.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+					<a href="https://scholar.google.ca/citations?user=EaaOeJwAAAAJ&hl=en" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/sanmikoyejo" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					<br>
+				</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Samni explores <a href="https://arxiv.org/abs/1607.03204" target="_blank">probabilistic methods</a> to make predictions about biomedical data and advance our medical knowledge of how we are structured. He has worked with hospital reports, genetics data, and <a href="https://openreview.net/forum?id=BJaU__eCZ" target="_blank">functional imaging</a> to move towards a more complete understanding of what our cognitive processes look like, and how we can detect when they go wrong.</p>
+				</div>
+			</div>
+
+		  </div>
+		</div>
+		</div>
+		
+		<div class="col-sm-6">
+		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Anders Eklund</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Associate Professor, Linköping University</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/anders_eklund.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+						<a href="https://scholar.google.ca/citations?user=x6pIxSEAAAAJ&hl=en" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/wandedob" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					<br>
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Anders is a computational guru whose extensive work <a href="https://github.com/wanderine/BROCCOLI" target="_blank">parallelizing neuroimaging pipelines on GPUs</a> made deep learning a natural extension of his research program. He's interested in <a href="https://arxiv.org/abs/1806.07777" target="_blank">pushing the limits of generative neural network models</a> to fill in missing modalities and scale large-scale neuroimaging research across incomplete datasets.
+					</p>					
+				</div>
+			</div>
+		  </div>
+		</div>
+		</div>
+
+		<div class="col-sm-6">
+		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Steffen Bollman</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Assistant Professor, University of Queensland</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/steffen_bollman.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+						<a href="https://scholar.google.ca/citations?user=HmXlj24AAAAJ&hl=en" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/sbollmann_MRI" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					<br>
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Steffen records high-resolution magnetic resonance imaging to create quantitative susceptibility maps that better reflect the underlying biology than more traditional sequences. He uses deep learning to <a href="https://espace.library.uq.edu.au/view/UQ:607570" target="_blank">estimate these maps</a> directly from images, and to study attention deficit and hyperactivity disorder.
+					</p>					
+				</div>
+			</div>
+		  </div>
+		</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-sm-6">
+		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Jakob Wasserthal</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Doctoral Candidate, DKFZ</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/jakob_wasserthal.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+
+					<a href="https://twitter.com/JakobWasserthal" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					<br>
+				</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Jakob has innovatively applied standard deep learning segmentation techniques hierarchically to <a href="https://github.com/MIC-DKFZ/TractSeg" target="_blank">produce maps of individual tracts in diffusion MRI</a>. He is extending this so that it <a href="https://arxiv.org/pdf/1809.10486v1.pdf" target="_blank">easily generalizes to other problems</a> and these deep architectures are more accessible for researchers to be able to adapt them to their specific use cases.</p>
+				</div>
+			</div>
+
+		  </div>
+		</div>
+		</div>
+
+		<div class="col-sm-6">
+		<div class="card mb-3" style="height:95%">
+		  <div class="card-body">
+			<h5 class="card-title">Andrew Doyle (Organizer)</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Research Staff, McGill University</h6>
+
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="img/andrew_doyle2.jpg" width="150px" class="img-fluid rounded-circle mt-3"/>
+					<p class="card-text">
+						<br>
+						<a href="https://scholar.google.ca/citations?user=xxecIhQAAAAJ&hl=en" class="blk"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+					&nbsp;
+					<a href="https://twitter.com/crocodoyle" class="blk"><i class="fab fa-twitter fa-2x"></i></a>
+					<br>
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<p class="card-text">Andrew teaches neuroimagers the basics (and advanced) of deep learning methods in order to recruit collaborators who will teach him some neuroscience. This year, he co-organized hands-on educational courses at <a href="http://restingstate.com/2018/satellite-symposia/" target="_blank">Resting State and Brain Connectivity</a>, the <a href="https://brainhack101.github.io/introML/dl-course-outline.html" target="_blank">Montreal Artificial Intelligence and Neuroscience conference</a>, and introduced deep learning as an instructor at the <a href="https://brainhackmtl.github.io/school2018/index" target="_blank">BrainHack Summer School</a>.
+					</p>					
+				</div>
+			</div>
+		  </div>
+		</div>
+		</div>
+	</div>
+
+		</div>
+	</div>
+</div>
+</div>	
+
+  	<div class="row">
+  		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
+  			<hr>
+  			<h2>Program 2018 - Beyond Linear Decoding: Introduction to Deep Learning Methods</h2>
   			<h4>Organization for Human Brain Mapping 2018. Suntec Convention Center, Singapore.</h4>
   			<h5>17 June 2018, 1:00 pm - 5:00 pm</h4>
   			<ol>
