@@ -30,6 +30,10 @@ color: #000000;
 .opaque {
 	opacity: 1.0
 }
+.jumbotron-pad {
+	padding: 2rem 2rem;
+}
+
 </style>
 
 </head>
@@ -38,49 +42,73 @@ color: #000000;
   <div class="container-fluid">
   	<div class="row bg">
   		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
-	  	<div class="jumbotron jumbotron-fluid transparent">
+	  	<div class="jumbotron jumbotron-fluid transparent jumbotron-pad">
 		  <div class="container opaque">
-		    <h1 class="display-4">Deep Learning for Human Brain Mapping</h1>
-		    <p class="lead">Deep learning has become an indispensable tool in computer vision, and is increasingly applied to neuroimaging data. It has very quickly surpassed human performance in natural image recognition and in some cases, the highest-performing architectures closely resemble the visual cortex. A variety of image-to-image translation methods are now popular for mapping the brain's functionality. In this course, we present state-of-the-art methods in deep learning with a focus on how these new techniques can readily be applied to your brain imaging data.</p>
+		    <h1 class="display-5">Deep Learning for Human Brain Mapping</h1>
+		    <p class="lead">Deep learning has become an indispensable tool in computer vision, and is increasingly applied to neuroimaging data. It has very quickly surpassed human performance in natural image recognition and a variety of image-to-image translation methods are now popular as another tool to map the brain. In this course, we present state-of-the-art methods in deep learning with a focus on how these new techniques can readily be applied to your brain imaging data.</p>
 		  </div>
 		</div>
 		</div>
 	</div>
 
-<!-- 	<div class="row">
-		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
-			<h3 class="text-center"><a href="https://drive.google.com/open?id=1BS1VPtqbcPZxtRrWUCVl2ckoDgQLlwuZWB9XY7yMz_s">Review the Course - Open until August 22, 2018.<a></h3>
-		</div>
-	</div> -->
 
-
+<!--  	
+	<hr>
 	<div class="row">
 		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
- 			<hr>
-  			<h2>Proposed Program 2019 - Deep Learning for Human Brain Mapping</h2>
-  			<h4>Organization for Human Brain Mapping 2019. Rome.</h4>
-  			<h5>June 2019</h4>
+
+		</div>
+	</div>
+	<hr>
+ -->
+	<div class="row">
+		<div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
+			<br>
+			<br>
+
+  			<h2>Proposed Program - Deep Learning for Human Brain Mapping</h2>
+  			<h4>Organization for Human Brain Mapping. Rome. June 2019.</h4>
+  			<br>
+
+  			<p>Deep learning is a powerful method for learning non-linear function approximations in a data-driven manner. Many parallels have been drawn between biological brains and artificial neural networks. This exciting new tool offers several avenues to study the brain, used both as a tool to analyze neuroimaging data and as a way to model cognition.</p>
+
+			<p>In this course, we introduce participants to the theory underlying deep learning and, using practical examples with code and data, teach them how artificial neural networks are constructed and trained. We provide hands-on examples of applications where deep learning is used for mapping the human brain at various scales. Participants are asked to bring laptops and actively engage with the course material, which will be posted in the weeks before the course.</p>
+
+			<br>
+
+			<h4>Learning Objectives:</h4>
+			<ol>
+			<li>Write Python code that implements a deep <strong>convolutional neural network</strong>.</li>
+			<li>Apply deep learning to a variety of <strong>brain mapping data</strong> at different spatial scales.</li>
+			<li>Use deep learning to <strong>model cognitive processes</strong>.</li>
+			<li>Identify and understand the potential pitfalls of <strong>interpreting results</strong> from neural networks. </li>
+			<li><strong>Compare and contrast</strong> deep learning with other methods for analysis of brain imaging data.</li>
+			</ol>
+
+			<br>
   			
-  			<div class="row">
-	  			<ol>
-	  				<br>
-	  				<h6>Morning (9h00 - 12h30): Deep Dive</h6>
-	  				<li>Deep Learning Approaches: Brief Introduction and Application to NeuroImaging - Vince Calhoun</li>
-	  				<li>Hands-on Introduction to Deep Learning with Keras - Ariel Rokem</li>
-	  				<li>Brain Age Prediction - Saige Rutherford</li>
-	  				<li>Learning Cortical Layers in the BigBrain - Hannah Spitzer</li>
-	  				<li>Attention and Modeling of Cognitive Processes - Grace Lindsay</li>
+  			<h4>Schedule:</h4>
+  			<ol>
+  				<h6>Morning (9h00 - 12h30): Deep Dive</h6>
+  				<li>Deep Learning Approaches: Brief Introduction and Application to NeuroImaging - Vince Calhoun</li>
+  				<li>Hands-on Introduction to Deep Learning with Keras - Ariel Rokem</li>
+  				<li>Revamped CNNs for Brain-Age Analyses - Saige Rutherford</li>
+  				<li>Segmenting the BigBrain - Hannah Spitzer</li>
+  				<li>Attention and Modeling of Cognitive Processes - Grace Lindsay</li>
 
-	  				<br>
-	  				<h6>Afternoon (1h30 - 17h00): Even Deeper</h6>
-	  				<li>Generative Adversarial Activation Mapping - Sanmi Koyejo</li>
-	  				<li>GANs for Cross-Modality Image Synthesis - Anders Eklund</li>
-	  				<li>Quantitative Susceptibility Mapping - Steffen Bollmann</li>
-	  				<li>Segmenting Tracts in Diffusion MRI - Jakob Wasserthal</li>
-	  				<li>Looking Inside the Black Box - Andrew Doyle</li>
-	  			</ol>
-  			</div>
+  				<br>
+  				<h6>Lunch (12h30 - 1h30): Up for Air</h6>
+  				Office Hours - Andrew and Ariel
 
+  				<br><br>
+
+  				<h6>Afternoon (1h30 - 17h00): Even Deeper</h6>
+  				<li>Synthesizing fMRI; applications, promises, and pitfalls - Sanmi Koyejo</li>
+  				<li>GANs for Cross-Modality Image Synthesis - Anders Eklund</li>
+  				<li>Quantitative Susceptibility Mapping - Steffen Bollmann</li>
+  				<li>Segmenting Tracts in Diffusion MRI - Jakob Wasserthal</li>
+  				<li>Looking Inside the Black Box - Andrew Doyle</li>
+  			</ol>
 		</div>
 	</div>
 
@@ -191,7 +219,7 @@ color: #000000;
 					</p>
 				</div>
 				<div class="col-sm-8">
-					<p class="card-text">Hannah is a computer vision expert who uses big data to <a href="https://ieeexplore.ieee.org/abstract/document/7950666">map the brain at the microscopic level</a>. She is interested in how deep learning can help us characterize and discover the variability in the <a href="https://arxiv.org/abs/1806.05104" target="_blank">cytoarchitecture</a> of our brains, and works on how understanding the connectivity and laminar structure of the reconstructed histological data in the <a href="https://bigbrain.loris.ca/main.php" target="_blank">BigBrain</a>.</p>					
+					<p class="card-text">Hannah is a computer vision expert who uses big data to <a href="https://ieeexplore.ieee.org/abstract/document/7950666">map the brain at the microscopic level</a>. She is interested in how deep learning can help us characterize and discover the variability in the <a href="https://arxiv.org/abs/1806.05104" target="_blank">cytoarchitecture</a> of our brains, and works on understanding the connectivity and laminar structure of the reconstructed histological data in the <a href="https://bigbrain.loris.ca/main.php" target="_blank">BigBrain</a>.</p>					
 				</div>
 
 				
