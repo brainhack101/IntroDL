@@ -1,0 +1,4 @@
+keras-gpu
+jupyter
+matplotlib
+progress
