@@ -1,4 +1,5 @@
-keras-gpu
+keras
+keras_contrib
 jupyter
 matplotlib
 progress
