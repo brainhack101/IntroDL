@@ -1,5 +1,5 @@
 keras
-keras_contrib
+git+https://www.github.com/keras-team/keras-contrib.git
 jupyter
 matplotlib
 progress
